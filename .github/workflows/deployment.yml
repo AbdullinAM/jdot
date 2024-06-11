@@ -2,7 +2,7 @@ name: Java CD
 
 on:
   release:
-    types: published
+    types: [ published ]
 
 jobs:
   publish:
