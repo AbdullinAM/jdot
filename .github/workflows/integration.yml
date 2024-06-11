@@ -18,7 +18,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        run: mvn verify --file pom.xml
+        run: mvn verify -s .github/github-settings.xml --file pom.xml
         env:
           GITHUB_ACTOR: AbdullinAM
           GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
