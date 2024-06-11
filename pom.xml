@@ -40,4 +40,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github-plan-research-kotlin-maven</id>
+            <name>plan-research-kotlin-maven</name>
+            <url>https://maven.pkg.github.com/plan-research/kotlin-maven</url>
+        </repository>
+    </distributionManagement>
 </project>
