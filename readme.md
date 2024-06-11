@@ -3,6 +3,8 @@ JDot
 
 Java library that provides wrapper for Graphviz. Generates DOT and uses Graphviz to generate graphs.
 
+This is a maintained fork. The original repo is unmaintained and can be found [here](https://github.com/gboersma/jdot).
+
 Status
 ======
 
